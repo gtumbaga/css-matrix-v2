@@ -1,0 +1,10 @@
+#VIM
+*.swp
+.*.swp
+
+# system
+.DS_Store
+Thumbs.db
+
+# dependencies
+/node_modules

@@ -1,0 +1,89 @@
+body {
+  /*font-family: "Share Tech Mono";*/
+  font-family: Impact;
+  font-size: 18px;
+  background: #000;
+  color: #0f0;
+  line-height: 1.2;
+}
+#code-holder {
+    font-size: 2.07vw;
+    /*background: #000;*/
+    position: absolute;
+    top:0;bottom:0; /* vertical center */
+    left:0;right:0; /* horizontal center */
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+.colHolder{
+  flex-grow: 1;
+}
+.codeCol {
+  /*width: 2.222222%;*/
+  text-align: center;
+    animation: colFall-a 15s linear infinite;
+  position: relative;
+}
+.colHolder:nth-child(2n) .codeCol {
+    animation: colFall-b 15s linear infinite;
+}
+.colHolder:nth-child(1) .codeCol {animation-duration: 20s}
+.colHolder:nth-child(2) .codeCol {animation-duration: 31s}
+.colHolder:nth-child(3) .codeCol {animation-duration: 58s}
+.colHolder:nth-child(4) .codeCol {animation-duration: 26s}
+.colHolder:nth-child(5) .codeCol {animation-duration: 57s}
+.colHolder:nth-child(6) .codeCol {animation-duration: 41s}
+.colHolder:nth-child(7) .codeCol {animation-duration: 40s}
+.colHolder:nth-child(8) .codeCol {animation-duration: 62s}
+.colHolder:nth-child(9) .codeCol {animation-duration: 61s}
+.colHolder:nth-child(10) .codeCol {animation-duration: 63s}
+
+.colHolder:nth-child(11) .codeCol {animation-duration: 30s}
+.colHolder:nth-child(12) .codeCol {animation-duration: 59s}
+.colHolder:nth-child(13) .codeCol {animation-duration: 24s}
+.colHolder:nth-child(14) .codeCol {animation-duration: 60s}
+.colHolder:nth-child(15) .codeCol {animation-duration: 39s}
+.colHolder:nth-child(16) .codeCol {animation-duration: 42s}
+.colHolder:nth-child(17) .codeCol {animation-duration: 28s}
+.colHolder:nth-child(18) .codeCol {animation-duration: 56s}
+.colHolder:nth-child(19) .codeCol {animation-duration: 32s}
+
+.colHolder:nth-child(20) .codeCol {animation-duration: 21s}
+.colHolder:nth-child(21) .codeCol {animation-duration: 43s}
+.colHolder:nth-child(22) .codeCol {animation-duration: 30s}
+.colHolder:nth-child(23) .codeCol {animation-duration: 54s}
+.colHolder:nth-child(24) .codeCol {animation-duration: 55s}
+.colHolder:nth-child(25) .codeCol {animation-duration: 33s}
+.colHolder:nth-child(26) .codeCol {animation-duration: 44s}
+.colHolder:nth-child(27) .codeCol {animation-duration: 29s}
+.colHolder:nth-child(28) .codeCol {animation-duration: 45s}
+.colHolder:nth-child(29) .codeCol {animation-duration: 25s}
+
+.colHolder:nth-child(30) .codeCol {animation-duration: 53s}
+.colHolder:nth-child(31) .codeCol {animation-duration: 47s}
+.colHolder:nth-child(32) .codeCol {animation-duration: 22s}
+.colHolder:nth-child(33) .codeCol {animation-duration: 46s}
+.colHolder:nth-child(34) .codeCol {animation-duration: 34s}
+.colHolder:nth-child(35) .codeCol {animation-duration: 36s}
+.colHolder:nth-child(36) .codeCol {animation-duration: 27s}
+.colHolder:nth-child(37) .codeCol {animation-duration: 38s}
+.colHolder:nth-child(38) .codeCol {animation-duration: 37s}
+.colHolder:nth-child(39) .codeCol {animation-duration: 48s}
+
+.colHolder:nth-child(40) .codeCol {animation-duration: 23s}
+.colHolder:nth-child(41) .codeCol {animation-duration: 49s}
+.colHolder:nth-child(42) .codeCol {animation-duration: 51s}
+.colHolder:nth-child(43) .codeCol {animation-duration: 50s}
+.colHolder:nth-child(44) .codeCol {animation-duration: 35s}
+.colHolder:nth-child(45) .codeCol {animation-duration: 52s}
+
+@keyframes colFall-a {
+  0%   { top: -370%;; }
+  100% { top: 110%; }
+}
+@keyframes colFall-b {
+  0%   { top: -470%;; }
+  100% { top: 110%; }
+}
